@@ -1,0 +1,39 @@
+.modal
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(0, 0, 0, 0.6)
+
+.modal-content
+  position: relative
+  background: $white
+  max-width: 800px
+  height: auto
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  padding: 30px
+  border-radius: 5px
+
+  img
+    height: 400px
+    width: 100%
+
+.close-icon 
+  position: absolute
+  top: 5px
+  right: 5px
+  padding: 5px 8px
+  background: rgba(0, 0, 0, 0.6)
+  border-radius: 50%
+  color: #fff
+  visibility: hidden
+  cursor: pointer  
+
+.modal-content .close-icon
+  visibility: visible
+  font-size: 10px
+  padding: 6px 9px
+  font-weight: 700
